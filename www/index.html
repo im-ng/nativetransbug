@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name='viewport' content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <title>Native Scrolling Landscape issue</title>
+</head>
+
+<body>
+  <section class="container">
+    <article class="row" id="topContainerView">
+      <form class=" col-sm-12 col-md-12 " id="loginForm">
+        <div class="login_form">
+          <label>Username:</label>
+          <input type="text" id="username">
+          <label>Password:</label>
+          <input type="password" id="passcode">
+          <input type="button" value="LOGIN" id="signin">
+          <div id="errorWrapper" />
+        </div>
+      </form>
+    </article>
+  </section>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
+
+<script id="mainmenuViewWrapper" type="text/x-handlebars-template">
+  <ul class="menu_list">
+    <li>
+      <a id="option">Option 1</a>
+    </li>
+    <li><a id="option">Option 2</a>
+    </li>
+    <li><a id="option">Option 3</a>
+    </li>
+    <li><a id="signout">Sign Out</li>
+  </ul>
+</script>

@@ -1,0 +1,14 @@
+{
+    "net.yoik.cordova.plugins.screenorientation": {
+        "source": {
+            "type": "registry",
+            "id": "net.yoik.cordova.plugins.screenorientation"
+        }
+    },
+    "com.telerik.plugins.nativepagetransitions": {
+        "source": {
+            "type": "registry",
+            "id": "com.telerik.plugins.nativepagetransitions"
+        }
+    }
+}
